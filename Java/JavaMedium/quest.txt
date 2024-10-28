@@ -1,0 +1,632 @@
+
+Recursions
+
+Check if String is a Subsequence
+Problem Statement: Determine if the second string is a subsequence of the first.
+Input: "abcde", "ace"
+Expected Result: True
+
+Longest Substring Without Repeating Characters
+Problem Statement: Find the length of the longest substring without repeating characters.
+Input: "abcabcbb"
+Expected Result: 3 (Substring: "abc")
+
+Find All Subarrays with Given Sum====> Done in py
+Problem Statement: Find all the subarrays that sum up to a given value.
+Input: [1, 2, 3, 4, 5], Sum = 5
+Expected Result: [(2, 3), (5)]
+
+Find All Permutations of a String
+Problem Statement: Return all permutations of a given string.
+Input: "abc"
+Expected Result: ["abc", "acb", "bac", "bca", "cab", "cba"]
+
+
+7. Minimum Window Substring
+Problem Statement: Find the smallest substring in the given string which contains all the characters of another string.
+Input: S = "ADOBECODEBANC", T = "ABC"
+Expected Result: "BANC"
+
+9. Count Occurrences of Anagrams
+Problem Statement: Find how many times an anagram of a pattern appears as a substring.
+Input: Text = "forxxorfxdofr", Pattern = "for"
+Expected Result: 3
+
+5. Maximum Sum of Two Non-Overlapping Subarrays
+Problem Statement: Find two non-overlapping subarrays such that the sum of their elements is maximized.
+Input: [0, 6, 5, 2, 2, 5, 1, 9, 4], L = 1, M = 2
+Expected Result: 20
+
+6. Longest Subarray with Ones after Replacement
+Problem Statement: Find the length of the longest subarray containing only 1s after replacing at most K 0s.
+Input: [1, 1, 0, 0, 1, 1, 0], K = 2
+Expected Result: 6
+
+
+
+11. Maximum Number of Vowels in a Substring of Given Length
+Problem Statement: Find the maximum number of vowels in any substring of the given length.
+Input: "abciiidef", K = 3
+Expected Result: 3
+
+
+
+13. Longest Repeating Character Replacement
+Problem Statement: Replace at most K characters to make the longest repeating substring.
+Input: "AABABBA", K = 1
+Expected Result: 4
+
+
+
+15. Max Consecutive Ones II
+Problem Statement: Find the maximum number of consecutive 1s in the array if you can flip at most one 0.
+Input: [1, 0, 1, 1, 0]
+Expected Result: 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Valid Parentheses
+Problem Statement: Given a string of parentheses, determine if it is valid (properly nested).
+Input: "()[]{}"
+Expected Result: True
+
+
+Group Anagrams
+Problem Statement: Given an array of strings, group the anagrams together.
+Input: ["eat", "tea", "tan", "ate", "nat", "bat"]
+Expected Result: [["eat","tea","ate"],["tan","nat"],["bat"]]
+
+
+Check if Strings are One Edit Distance Apart
+Problem Statement: Check if two strings are one edit (insert, remove, or replace) away.
+Input: "pale", "ple"
+Expected Result: True
+
+Implement strStr() / IndexOf()
+Problem Statement: Return the index of the first occurrence of a substring in a string. If not found, return -1.
+Input: "hello", "ll"
+Expected Result: 2
+
+
+
+Check if a String is a Valid IP Address
+Problem Statement: Validate if the given string is a valid IPv4 address.
+Input: "192.168.0.1"
+Expected Result: True
+
+
+
+
+
+
+Find the Longest Consecutive Sequence
+Problem Statement: Find the length of the longest consecutive sequence in an unsorted array.
+Input: [100, 4, 200, 1, 3, 2]
+Expected Result: 4
+
+
+
+
+
+
+
+Check if an Array is a Subarray of Another
+Problem Statement: Check if one array is a subarray of another.
+Input: [1, 2, 3, 4, 5], [2, 3, 4]
+Expected Result: True
+
+Sort an Array of 0s, 1s, and 2s
+Problem Statement: Sort an array containing only 0s, 1s, and 2s.
+Input: [2, 0, 2, 1, 1, 0]
+Expected Result: [0, 0, 1, 1, 2, 2]
+
+Find the Kth Largest Element in an Array
+Problem Statement: Find the Kth largest element in an unsorted array.
+Input: [3, 2, 1, 5, 6, 4], K = 2
+Expected Result: 5
+
+Find the Equilibrium Index of an Array
+Problem Statement: Find the index where the sum of elements on the left is equal to the sum on the right.
+Input: [1, 7, 3, 6, 5, 6]
+Expected Result: 3
+
+Check if Array Contains a Subsequence with Zero Sum
+Problem Statement: Check if there exists a subsequence with a sum of 0.
+Input: [4, 2, -3, 1, 6]
+Expected Result: True
+
+Find the Minimum Difference Between Two Elements
+Problem Statement: Find the minimum difference between any two elements in the array.
+Input: [3, 8, 15, 17]
+Expected Result: 2
+
+Merge Two Sorted Arrays
+Problem Statement: Merge two sorted arrays into one sorted array.
+Input: [1, 3, 5], [2, 4, 6]
+Expected Result: [1, 2, 3, 4, 5, 6]
+
+Find All Leaders in an Array
+Problem Statement: An element is called a leader if it is greater than all elements to its right. Find all such leaders.
+Input: [16, 17, 4, 3, 5, 2]
+Expected Result: [17, 5, 2]
+
+Find the Smallest Positive Missing Number
+Problem Statement: Find the smallest positive integer missing from the array.
+Input: [0, -10, 1, 3, -20]
+Expected Result: 2
+
+
+
+
+
+
+Check if Two Strings are Isomorphic
+Problem Statement: Two strings are isomorphic if every character in one string can be replaced to get the other.
+Input: "egg", "add"
+Expected Result: True
+
+Convert String to Integer (atoi)
+Problem Statement: Implement a function to convert a string to an integer (similar to Python's int()).
+Input: "42"
+Expected Result: 42
+
+
+
+
+
+
+
+Rearrange Characters to Form a Palindrome
+Problem Statement: Check if characters of a given string can be rearranged to form a palindrome.
+Input: "civic"
+Expected Result: True
+
+
+
+Sliding Window DSA Questions (17)
+
+
+17. Binary Subarrays with Sum
+Problem Statement: Find the number of contiguous subarrays with sum equal to a given value.
+Input: [1, 0, 1, 0, 1], Sum = 2
+Expected Result: 4
+
+16. Fruits into Baskets (Longest Subarray with Two Types of Elements)
+Problem Statement: Find the length of the longest subarray with at most two distinct elements.
+Input: [1, 2, 1, 2, 3]
+Expected Result: 4
+
+
+14. Sliding Window Maximum
+Problem Statement: Find the maximum value in every contiguous subarray of size K.
+Input: [1, 3, -1, -3, 5, 3, 6, 7], K = 3
+Expected Result: [3, 3, 5, 5, 6, 7]
+
+
+
+Search Insert Position
+Problem Statement: Find the index where the target should be inserted to maintain sorted order.
+Input: [1, 3, 5, 6], Target = 5
+Expected Result: 2
+
+Peak Element in an Array
+Problem Statement: Find a peak element such that it is greater than its neighbors.
+Input: [1, 2, 3, 1]
+Expected Result: 2 (Index of 3)
+
+First and Last Position of Element in Sorted Array
+Problem Statement: Find the first and last occurrence of a target element in a sorted array.
+Input: [5, 7, 7, 8, 8, 10], Target = 8
+Expected Result: [3, 4]
+
+Valid Parentheses
+Problem Statement: Check if the input string has valid parentheses.
+Input: "()[]{}"
+Expected Result: True
+
+Linked List DSA Questions
+Reverse a Linked List
+Problem Statement: Reverse a singly linked list.
+Input: 1 -> 2 -> 3 -> 4 -> 5
+Expected Result: 5 -> 4 -> 3 -> 2 -> 1
+
+Detect a Cycle in Linked List
+Problem Statement: Detect if a cycle exists in a linked list.
+Input: 3 -> 2 -> 0 -> -4 (points back to node 2)
+Expected Result: True
+
+Find the Middle of a Linked List
+Problem Statement: Find the middle node of a linked list.
+Input: 1 -> 2 -> 3 -> 4 -> 5
+Expected Result: 3
+
+Remove Nth Node from End of List
+Problem Statement: Remove the Nth node from the end of a linked list.
+Input: 1 -> 2 -> 3 -> 4 -> 5, N = 2
+Expected Result: 1 -> 2 -> 3 -> 5
+
+Check if Linked List is a Palindrome
+Problem Statement: Check if the given linked list is a palindrome.
+Input: 1 -> 2 -> 2 -> 1
+Expected Result: True
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Two Pointer DSA Questions
+
+
+3Sum
+Problem Statement: Find all unique triplets in the array that sum to zero.
+Input: [-1, 0, 1, 2, -1, -4]
+Expected Result: [[-1, -1, 2], [-1, 0, 1]]
+
+4Sum
+Problem Statement: Find all unique quadruplets in the array that sum to a target value.
+Input: [1, 0, -1, 0, -2, 2], Target = 0
+Expected Result: [[-2, -1, 1, 2], [-2, 0, 0, 2], [-1, 0, 0, 1]]
+
+Container with Most Water
+Problem Statement: Find two lines that form a container with the most water.
+Input: [1, 8, 6, 2, 5, 4, 8, 3, 7]
+Expected Result: 49
+
+Trapping Rain Water
+Problem Statement: Calculate the total amount of water that can be trapped between the bars.
+Input: [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
+Expected Result: 6
+
+Remove Duplicates from Sorted Array
+Problem Statement: Remove duplicates from the sorted array in place.
+Input: [1, 1, 2]
+Expected Result: 2
+
+Remove Element in Place
+Problem Statement: Remove all occurrences of a given element in place.
+Input: [3, 2, 2, 3], val = 3
+Expected Result: [2, 2]
+
+Sort Colors (Dutch National Flag Problem)
+Problem Statement: Sort an array containing only 0s, 1s, and 2s.
+Input: [2, 0, 2, 1, 1, 0]
+Expected Result: [0, 0, 1, 1, 2, 2]
+
+
+Longest Palindromic Substring
+Problem Statement: Find the longest palindromic substring in a given string.
+Input: "babad"
+Expected Result: "bab" or "aba"
+
+Find K-th Smallest Pair Distance
+Problem Statement: Find the K-th smallest distance among all pairs.
+Input: [1, 3, 1], K = 1
+Expected Result: 0
+
+Minimum Difference Between Two Sorted Arrays
+Problem Statement: Find the minimum difference between elements from two sorted arrays.
+Input: [1, 3, 15, 11], [23, 127, 235, 19, 8]
+Expected Result: 3
+
+Partition Array into Three Parts with Equal Sum
+Problem Statement: Check if the array can be partitioned into three contiguous subarrays with the same sum.
+Input: [0, 2, 1, -6, 6, -7, 9, 1, 2, 0, 1]
+Expected Result: True
+
+Check If a Subarray with Zero Sum Exists
+Problem Statement: Check if a subarray with a sum of 0 exists in the given array.
+Input: [4, 2, -3, 1, 6]
+Expected Result: True
+
+
+Find All Triplets with a Sum Less Than Target
+Problem Statement: Find all triplets whose sum is less than the target.
+Input: [-2, 0, 1, 3], Target = 2
+Expected Result: 2
+
+
+Max Consecutive Ones
+Problem Statement: Find the maximum number of consecutive 1s in the binary array.
+Input: [1, 1, 0, 1, 1, 1]
+Expected Result: 3
+
+Pair with Given Difference
+Problem Statement: Find if there exists a pair with the given difference.
+Input: [5, 20, 3, 2, 5, 80], Difference = 78
+Expected Result: True
+
+
+
+
+Binary Search DSA Questions
+
+
+
+
+Find Minimum in Rotated Sorted Array
+Problem Statement: Find the minimum element in a rotated sorted array.
+Input: [3, 4, 5, 1, 2]
+Expected Result: 1
+
+Find the Square Root (Floor Value)
+Problem Statement: Find the floor value of the square root of a number using binary search.
+Input: 8
+Expected Result: 2
+
+Guess the Number
+Problem Statement: Implement a guessing game where you guess a number within a given range.
+Input: Range = [1, 100], Target = 42
+Expected Result: 42
+
+Kth Smallest Element in a Sorted Matrix
+Problem Statement: Find the Kth smallest element in a sorted 2D matrix.
+Input: [[1, 5, 9], [10, 11, 13], [12, 13, 15]], K = 8
+Expected Result: 13
+
+Search in Rotated Sorted Array
+Problem Statement: Search for a target element in a rotated sorted array.
+Input: [4, 5, 6, 7, 0, 1, 2], Target = 0
+Expected Result: 4
+
+Median of Two Sorted Arrays
+Problem Statement: Find the median of two sorted arrays.
+Input: [1, 3], [2]
+Expected Result: 2.0
+
+Find the Missing Number
+Problem Statement: Find the missing number from an array containing numbers from 0 to N.
+Input: [3, 0, 1], N = 3
+Expected Result: 2
+
+Find the Duplicate Number
+Problem Statement: Find the duplicate element in an array containing N+1 elements.
+Input: [1, 3, 4, 2, 2]
+Expected Result: 2
+
+Minimum Time to Complete Trips
+Problem Statement: Given the time each bus takes to complete a trip, find the minimum time required to complete a given number of trips.
+Input: Time = [1, 2, 3], TotalTrips = 5
+Expected Result: 3
+
+Capacity to Ship Packages within D Days
+Problem Statement: Find the minimum capacity required to ship packages within D days.
+Input: Weights = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], D = 5
+Expected Result: 15
+
+Split Array Largest Sum
+Problem Statement: Split the array into m subarrays such that the largest sum among these subarrays is minimized.
+Input: [7, 2, 5, 10, 8], m = 2
+Expected Result: 18
+
+Aggressive Cows (Placement Problem)
+Problem Statement: Place cows in stalls such that the minimum distance between any two cows is maximized.
+Input: Stalls = [1, 2, 8, 4, 9], Cows = 3
+Expected Result: 3
+
+Find the Element that Appears Only Once
+Problem Statement: Every element in the array appears twice except one. Find that single element.
+Input: [4, 1, 2, 1, 2]
+Expected Result: 4
+
+Book Allocation Problem
+Problem Statement: Allocate books to students such that the maximum pages assigned to a student are minimized.
+Input: [12, 34, 67, 90], Students = 2
+Expected Result: 113
+
+Maximum Length of a Ribbon
+Problem Statement: Given ribbons of different lengths, cut them into pieces of equal length such that you maximize the number of pieces.
+Input: Ribbons = [9, 7, 5], K = 3
+Expected Result: 5
+
+
+
+Stack-Based DSA Questions
+
+
+Min Stack
+Problem Statement: Design a stack that supports push, pop, and retrieving the minimum element in constant time.
+Operations: push(1), push(2), pop(), getMin()
+Expected Result: 1
+
+Evaluate Reverse Polish Notation
+Problem Statement: Evaluate the value of an arithmetic expression in Reverse Polish Notation.
+Input: ["2", "1", "+", "3", "*"]
+Expected Result: 9
+
+Simplify Path
+Problem Statement: Simplify an absolute Unix-style path.
+Input: "/home//foo/"
+Expected Result: "/home/foo"
+
+Daily Temperatures
+Problem Statement: Find the number of days you have to wait until a warmer temperature.
+Input: [73, 74, 75, 71, 69, 72, 76, 73]
+Expected Result: [1, 1, 4, 2, 1, 1, 0, 0]
+
+Next Greater Element I
+Problem Statement: Find the next greater element for each element in the array.
+Input: [4, 5, 2, 10]
+Expected Result: [5, 10, 10, -1]
+
+Largest Rectangle in Histogram
+Problem Statement: Find the area of the largest rectangle in a histogram.
+Input: [2, 1, 5, 6, 2, 3]
+Expected Result: 10
+
+Basic Calculator
+Problem Statement: Implement a basic calculator to evaluate simple arithmetic expressions.
+Input: "3+2*2"
+Expected Result: 7
+
+Longest Valid Parentheses
+Problem Statement: Find the length of the longest valid parentheses substring.
+Input: "(()"
+Expected Result: 2
+
+Remove K Digits
+Problem Statement: Remove K digits from the number to make it the smallest possible.
+Input: "1432219", K = 3
+Expected Result: "1219"
+
+Asteroid Collision
+Problem Statement: Simulate asteroid collisions and return the remaining asteroids.
+Input: [5, 10, -5]
+Expected Result: [5, 10]
+
+Implement Queue using Stacks
+Problem Statement: Implement a queue using two stacks.
+Operations: enqueue(1), enqueue(2), dequeue()
+Expected Result: 1
+
+Decode String
+Problem Statement: Decode a given encoded string.
+Input: "3[a]2[bc]"
+Expected Result: "aaabcbc"
+
+Trap Rain Water using Stack
+Problem Statement: Calculate the amount of water that can be trapped after raining.
+Input: [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
+Expected Result: 6
+
+Validate Stack Sequences
+Problem Statement: Validate if a sequence of pushed and popped values is valid for a stack.
+Input: pushed = [1, 2, 3, 4, 5], popped = [4, 5, 3, 2, 1]
+Expected Result: True
+
+Binary Tree Inorder Traversal Using Stack
+Problem Statement: Perform an inorder traversal of a binary tree using a stack.
+Input: Binary tree with root [1, null, 2, 3]
+Expected Result: [1, 3, 2]
+
+Flatten Nested List Iterator
+Problem Statement: Implement an iterator to flatten a nested list.
+Input: [[1, 1], 2, [1, 1]]
+Expected Result: [1, 1, 2, 1, 1]
+
+Maximum Rectangle in Binary Matrix
+Problem Statement: Find the area of the largest rectangle of 1s in a binary matrix.
+Input: [[1, 0, 1, 0, 0], [1, 0, 1, 1, 1], [1, 1, 1, 1, 1], [1, 0, 0, 1, 0]]
+Expected Result: 6
+
+Design a Stack with Increment Operation
+Problem Statement: Design a stack where an increment operation can be applied to the bottom K elements.
+Operations: push(1), push(2), increment(2, 100), pop()
+Expected Result: 102
+
+Basic Calculator II
+Problem Statement: Evaluate a simple expression string containing only non-negative integers and the +, -, *, / operators.
+Input: "3+5 / 2"
+Expected Result: 5
+
+
+
+
+
+
+Merge Two Sorted Linked Lists
+Problem Statement: Merge two sorted linked lists into one sorted list.
+Input: 1 -> 2 -> 4, 1 -> 3 -> 4
+Expected Result: 1 -> 1 -> 2 -> 3 -> 4 -> 4
+
+
+
+Intersection of Two Linked Lists
+Problem Statement: Find the intersection node of two linked lists.
+Input: A: 4 -> 1 -> 8 -> 4 -> 5, B: 5 -> 6 -> 1 -> 8 -> 4 -> 5
+Expected Result: Node with value 8
+
+Remove Duplicates from Sorted List
+Problem Statement: Remove duplicates from a sorted linked list.
+Input: 1 -> 1 -> 2 -> 3 -> 3
+Expected Result: 1 -> 2 -> 3
+
+Flatten a Multilevel Doubly Linked List
+Problem Statement: Flatten a multilevel doubly linked list.
+Input: 1 -> 2 -> 3 -> 4 (with child 3 -> 7 -> 8)
+Expected Result: 1 -> 2 -> 3 -> 7 -> 8 -> 4
+
+Rotate Linked List to the Right
+Problem Statement: Rotate the linked list to the right by K positions.
+Input: 1 -> 2 -> 3 -> 4 -> 5, K = 2
+Expected Result: 4 -> 5 -> 1 -> 2 -> 3
+
+Partition List
+Problem Statement: Partition the list so that all nodes less than a given value come before nodes greater than or equal to it.
+Input: 1 -> 4 -> 3 -> 2 -> 5 -> 2, X = 3
+Expected Result: 1 -> 2 -> 2 -> 4 -> 3 -> 5
+
+Reverse Nodes in K-Group
+Problem Statement: Reverse nodes in K-group chunks.
+Input: 1 -> 2 -> 3 -> 4 -> 5, K = 3
+Expected Result: 3 -> 2 -> 1 -> 4 -> 5
+
+Add Two Numbers Represented by Linked Lists
+Problem Statement: Add two numbers represented by linked lists (in reverse order).
+Input: 2 -> 4 -> 3, 5 -> 6 -> 4
+Expected Result: 7 -> 0 -> 8
+
+Copy List with Random Pointer
+Problem Statement: Create a deep copy of a linked list where each node has a random pointer.
+Input: Head of linked list with random pointers.
+Expected Result: Deep copy of the linked list.
+
+Delete a Node (Given Only Access to the Node)
+Problem Statement: Delete a node from a linked list, given only access to that node.
+Input: Node with value 5 from 4 -> 5 -> 1 -> 9
+Expected Result: 4 -> 1 -> 9
+
+Odd Even Linked List
+Problem Statement: Group all odd-positioned nodes together followed by even-positioned nodes.
+Input: 1 -> 2 -> 3 -> 4 -> 5
+Expected Result: 1 -> 3 -> 5 -> 2 -> 4
+
+Swap Nodes in Pairs
+Problem Statement: Swap every two adjacent nodes in a linked list.
+Input: 1 -> 2 -> 3 -> 4
+Expected Result: 2 -> 1 -> 4 -> 3
+
+Reorder List
+Problem Statement: Reorder the list such that the first element is followed by the last, the second by the second-last, and so on.
+Input: 1 -> 2 -> 3 -> 4 -> 5
+Expected Result: 1 -> 5 -> 2 -> 4 -> 3
+
+Remove All Occurrences of a Value
+Problem Statement: Remove all nodes with a specific value.
+Input: 1 -> 2 -> 6 -> 3 -> 4 -> 5 -> 6, Val = 6
+Expected Result: 1 -> 2 -> 3 -> 4 -> 5
+
+Merge K Sorted Lists
+Problem Statement: Merge K sorted linked lists into one sorted linked list.
+Input: [[1 -> 4 -> 5], [1 -> 3 -> 4], [2 -> 6]]
+Expected Result: 1 -> 1 -> 2 -> 3 -> 4 -> 4 -> 5 -> 6

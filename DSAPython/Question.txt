@@ -1,0 +1,196 @@
+String Coding Questions
+Reverse a String
+Problem Statement: Reverse the given string.
+Input: "hello"
+Expected Result: "olleh"
+---------
+
+Check Palindrome
+Problem Statement: Check if the given string is a palindrome.
+Input: "racecar"
+Expected Result: True
+----
+
+Find Character Frequency
+Problem Statement: Find the frequency of each character in the string.
+Input: "apple"
+Expected Result: {'a': 1, 'p': 2, 'l': 1, 'e': 1}
+
+----
+Anagram Check
+Problem Statement: Check if two strings are anagrams.
+Input: "listen", "silent"
+Expected Result: True
+----
+
+First Non-Repeating Character
+Problem Statement: Find the first non-repeating character.
+Input: "aabcc"
+Expected Result: "b"
+
+-------
+
+Title Case Conversion
+Problem Statement: Convert the string to title case.
+Input: "hello world"
+Expected Result: "Hello World"
+----------
+
+Remove Duplicate Characters
+Problem Statement: Remove duplicate characters from the string.
+Input: "banana"
+Expected Result: "ban"
+--------------------
+
+Count Vowels and Consonants
+Problem Statement: Count the number of vowels and consonants.
+Input: "hello"
+Expected Result: (Vowels: 2, Consonants: 3)
+
+----------------------
+
+Longest Substring Without Repeating Characters
+Problem Statement: Find the length of the longest substring without repeating characters.
+Input: "abcabcbb"
+Expected Result: 3
+------------------------
+
+
+Substring Search
+Problem Statement: Find the starting index of a substring in a string.
+Input: "hello world", "world"
+Expected Result: 6
+------------------
+
+String Rotation Check
+Problem Statement: Check if one string is a rotation of another.
+Input: "abc", "cab"
+Expected Result: True
+
+----------------------
+Rotate Array Left by K Positions
+Problem Statement: Rotate the array left by K positions.
+Input: [1, 2, 3, 4, 5], K = 2
+Expected Result: [3, 4, 5, 1, 2]
+
+==============================
+Rearrange Array with Negative Numbers First
+Problem Statement: Rearrange the array such that negative numbers come before positive numbers.
+Input: [1, -2, 3, -4, 5]
+Expected Result: [-2, -4, 1, 3, 5]
+__________________________
+
+
+Shift Zeroes to End
+Problem Statement: Shift all zeroes to the end.
+Input: [0, 1, 0, 3, 12]
+Expected Result: [1, 3, 12, 0, 0]
+
+++++++++++++++++++++++++++++++
+
+
+
+Maximum Sum Subarray (Kadane’s Algorithm)
+Problem Statement: Find the maximum sum of a contiguous subarray.
+Input: [-2, 1, -3, 4, -1, 2, 1, -5, 4]
+Expected Result: 6
+----------------------
+
+
+Array Coding Questions
+Sum of Elements
+Problem Statement: Find the sum of elements in the array.
+Input: [1, 2, 3, 4, 5]
+Expected Result: 15
+
+____________________________________
+
+
+Find Maximum and Minimum
+Problem Statement: Find the largest and smallest elements.
+Input: [3, 1, 4, 2, 5]
+Expected Result: (Max: 5, Min: 1)
+
+
+
+-------------------------
+
+
+Check for Sorted Array
+Problem Statement: Check if the array is sorted in ascending order.
+Input: [1, 2, 3, 4, 5]
+Expected Result: True
+----------------------------------------
+Reverse an Array
+Problem Statement: Reverse the given array.
+Input: [1, 2, 3, 4, 5]
+Expected Result: [5, 4, 3, 2, 1]
+
+____________________________________________
+
+Check for Special Characters
+Problem Statement: Check if the string contains any special characters.
+Input: "Hello@123"
+Expected Result: True
+
+Check Numeric String
+Problem Statement: Check if the given string contains only digits.
+Input: "1234"
+Expected Result: True
+
+
+
+
+
+Count Word Occurrences
+Problem Statement: Count the occurrences of each word in a sentence.
+Input: "apple banana apple"
+Expected Result: {'apple': 2, 'banana': 1}
+
+
+
+
+
+
+
+
+
+Intersection of Two Arrays
+Problem Statement: Find the intersection of two arrays.
+Input: [1, 2, 3], [2, 3, 4]
+Expected Result: [2, 3]
+
+Union of Two Arrays
+Problem Statement: Find the union of two arrays.
+Input: [1, 2, 3], [2, 3, 4]
+Expected Result: [1, 2, 3, 4]
+
+
+
+
+
+
+
+
+
+
+Find Kth Largest Element
+Problem Statement: Find the Kth largest element in the array.
+Input: [3, 2, 1, 5, 6, 4], K = 2
+Expected Result: 5
+
+Merge Two Sorted Arrays
+Problem Statement: Merge two sorted arrays into one.
+Input: [1, 3, 5], [2, 4, 6]
+Expected Result: [1, 2, 3, 4, 5, 6]
+
+Find Peak Element
+Problem Statement: Find a peak element in the array.
+Input: [1, 2, 3, 1]
+Expected Result: 3
+
+Find Pair with Given Sum
+Problem Statement: Find a pair of numbers that sum to a target value.
+Input: [2, 7, 11, 15], Target = 9
+Expected Result: [2, 7]
+

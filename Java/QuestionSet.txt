@@ -1,0 +1,38 @@
+Easy
+
+
+
+
+
+
+
+Find the First Repeated Character
+Problem Statement: Find the first character that repeats in a string.
+Input: "swiss"
+Expected Result: 's'
+
+
+Check if a String Contains a Substring Using Sliding Window
+Problem Statement: Implement a sliding window technique to check if a substring exists within the given string.
+Input: "abcdef", "cde"
+Expected Result: True
+
+Find the Most Frequent Character
+Problem Statement: Find the character that appears the most in the given string.
+Input: "test"
+
+ Problem: Write a function that accepts a sentence and rearranges the words such that:
+Each word appears in reverse order.
+The entire sentence is also in reverse order.
+Example:
+Input: "Hello from the future"
+Output: "erutuf eht morf olleH"
+
+//sentenceBackward
+
+
+
+
+
+
+

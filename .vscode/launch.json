@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "anagramCheck",
+            "request": "launch",
+            "mainClass": "Java.Strings_Easy.anagramCheck",
+            "projectName": "SDETCodingPractice_f08757de"
+        },
+        {
+            "type": "java",
+            "name": "findMissingEle",
+            "request": "launch",
+            "mainClass": "Java.Array_Easy.findMissingEle",
+            "projectName": "SDETCodingPractice_f08757de"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
